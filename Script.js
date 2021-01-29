@@ -3,7 +3,7 @@ function increase() {
     counter++;
     document.getElementById("counter").innerHTML = counter;
   }
-  function iecrease() {
+  function decrease() {
     counter--;
     document.getElementById("counter").innerHTML = counter;
   }
