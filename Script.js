@@ -1,9 +1,9 @@
-var counter = 0;
-function Increase() {
+let counter = 0;
+function increase() {
     counter++;
     document.getElementById("counter").innerHTML = counter;
   }
-  function Decrease() {
+  function iecrease() {
     counter--;
     document.getElementById("counter").innerHTML = counter;
   }
