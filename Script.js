@@ -1,11 +1,13 @@
 let counter = 0;
-function increase() {
-    counter++;
-    document.getElementById("counter").innerHTML = counter;
-  }
-  function decrease() {
-    counter--;
-    document.getElementById("counter").innerHTML = counter;
-  }
 
-  
+function increase() {
+  let counterNode = document.getElementById("counter");
+  console.log(counterNode);
+  counter++;
+  counterNode.innerHTML = counter;
+}
+
+function decrease() {
+  counter--;
+  document.getElementById("counter").innerHTML = counter;
+}
